@@ -1,5 +1,6 @@
 .header{
     height: 34vw;
+    width: 100vw;
     margin: 30px auto;
     background: url('../../public/header_img.png') no-repeat;
     background-size: contain;

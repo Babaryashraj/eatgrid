@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./navbar.css"
+import { Link } from "react-router-dom";
 
 
 function Button(){
@@ -11,10 +12,10 @@ function Button(){
         <img src="src/images/Grid.png" alt="" className="logo" />
         <ul className="navbar-menu">
 
-          <li onClick={()=>setMenu("home")} className={menu=="home" ? "active" : ""}>Home</li>
-          <li onClick={()=>setMenu("Menu")} className={menu=="Menu" ? "active" : ""}>Menu</li>
-          <li onClick={()=>setMenu("Mobile-App")} className={menu=="Mobile-App" ? "active" : ""}>Mobile-App</li>
-          <li onClick={()=>setMenu("Contact-Us")} className={menu=="Contact-Us" ? "active" : ""}>Contact-Us</li>
+          <Link to = '/' onClick={()=>setMenu("home")} className={menu=="home" ? "active" : ""}>Home</Link>
+          <a href="#exploremenu" onClick={()=>setMenu("Menu")} className={menu=="Menu" ? "active" : ""}>Menu</a>
+          <a href="#app-download" onClick={()=>setMenu("Mobile-App")} className={menu=="Mobile-App" ? "active" : ""}>Mobile-App</a>
+          <a href="#footer" onClick={()=>setMenu("Contact-Us")} className={menu=="Contact-Us" ? "active" : ""}>Contact-Us</a>
 
         </ul>
         <div className="navbar-right">
@@ -23,7 +24,7 @@ function Button(){
             <img src="src/images/basket_icon.png" alt="" />
             <div className="dot"></div>
           </div>
-          <button>sign in</button>
+          <button >sign in</button>
         </div>
     </div>
     

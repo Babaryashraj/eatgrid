@@ -8,7 +8,7 @@ const Homeheader = () => {
         <div className="header-content">
             <h2>Order your Favourite Food from here</h2>
             <p>Choose your favourite and delicious product or food from the our cart or menu and enjoy it.</p>
-            <button>View Menu</button>
+            <button >View Menu</button>
         </div>
       </div>
     </div>
