@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import 'bootstrap/dist/css/bootstrap.css';
 import styles from './App.module.css'; 
 import Button from './componant/Button'; 
@@ -28,3 +29,19 @@ function App() {
 }
 
 export default App;
+=======
+import './App.css'
+import TodoList from './TodoList'
+
+function App() {
+
+
+  return (
+    <>
+      <TodoList></TodoList>
+    </>
+  )
+}
+
+export default App
+>>>>>>> d0c59be80de637280969f84523e38fd2e23ebd99

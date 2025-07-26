@@ -1,0 +1,121 @@
+
+body {
+    background: linear-gradient(135deg, #c3ecb2, #7ddfcb);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Todo list container */
+.todo-list {
+    max-width: 600px;
+    margin: 100px auto;
+    padding: 40px;
+    background-color: #ffffffcc;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Input section */
+.todo-list > div {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+input[type="text"] {
+    font-size: 1.2rem;
+    padding: 12px;
+    border: 2px solid #5e5e5e;
+    border-radius: 10px;
+    width: 60%;
+    max-width: 300px;
+}
+
+/* Button styling */
+button {
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    transition: all 0.3s ease;
+}
+
+.add-button {
+    background-color: #28a745;
+}
+
+.add-button:hover {
+    background-color: #218838;
+}
+
+.delete-button {
+    background-color: #dc3545;
+}
+
+.delete-button:hover {
+    background-color: #c82333;
+}
+
+.moveup-button {
+    background-color: #007bff;
+}
+
+.moveup-button:hover {
+    background-color: #0069d9;
+}
+
+.movedown-button {
+    background-color: #fd7e14;
+}
+
+.movedown-button:hover {
+    background-color: #e66900;
+}
+
+/* Task list */
+ol {
+    padding: 0;
+    list-style: none;
+}
+
+li {
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #f9f9f9;
+    margin-bottom: 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: 2px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    color: #333;
+    margin-right: 10px;
+}
+
+/* Button spacing inside task items */
+.delete-button, .moveup-button, .movedown-button {
+    margin-left: 8px;
+    padding: 8px 12px;
+}

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "calculator",
+=======
+  "name": "todo",
+>>>>>>> d0c59be80de637280969f84523e38fd2e23ebd99
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -12,6 +16,7 @@
   "dependencies": {
     "bootstrap": "^5.3.7",
     "react": "^19.1.0",
+<<<<<<< HEAD
     "react-dom": "^19.1.0",
     "react-hot-toast": "^2.5.2",
     "react-router-dom": "^7.7.0"
@@ -26,5 +31,19 @@
     "eslint-plugin-react-refresh": "^0.4.20",
     "globals": "^16.2.0",
     "vite": "^7.0.0"
+=======
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.30.1",
+    "@types/react": "^19.1.8",
+    "@types/react-dom": "^19.1.6",
+    "@vitejs/plugin-react": "^4.6.0",
+    "eslint": "^9.30.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "vite": "^7.0.4"
+>>>>>>> d0c59be80de637280969f84523e38fd2e23ebd99
   }
 }
