@@ -24,7 +24,7 @@ function Button(){
             <img src="src/images/basket_icon.png" alt="" />
             <div className="dot"></div>
           </div>
-          <button >sign in</button>
+          <button>sign in</button>
         </div>
     </div>
     

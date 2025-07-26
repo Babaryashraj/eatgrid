@@ -8,9 +8,12 @@ import PlaceOrder from './pages/PlaceOrder'
 import Footer from './componant/Footer';
 
 
+
 function App() {
+  
   return (
     <>
+    
     <div className="app">
       <Button />
       <Routes>
